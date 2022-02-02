@@ -1,6 +1,7 @@
 # Teeny docker container to download emojis from Slack
 
-Modified from https://gist.github.com/lmarkus/8722f56baf8c47045621
+From https://gist.github.com/lmarkus/8722f56baf8c47045621
+Modified @griffero's ruby script from https://gist.github.com/lmarkus/8722f56baf8c47045621?permalink_comment_id=4020434#gistcomment-4020434
 
 ⚠️ Use only in moderation on Slack workspaces that you have permission to access! ⚠️
 
@@ -25,7 +26,7 @@ However, if you have issues with the methods described there, try the following 
 3. Click on filename that starts with `emoji.adminList` or `emoji.list`
 4. In the side panel, click on the "Response" tab
 6. If the `count` is less than or equal to the `total`: toggle "Raw" to true, copy the JSON, and save to a file
-5. If the `count` is less than the `total`:
+5. If the `count` is less than the `total` (adapted from https://gist.github.com/lmarkus/8722f56baf8c47045621?permalink_comment_id=3535987#gistcomment-3535987):
     1. Note down what the `total` is
     2. Right click on the filename that starts with `emoji.adminList` and click "Edit and resend"
     3. Edit the "Request Body" so that `Content-Disposition: form-data; name="count"` is set to the `total`
