@@ -1,6 +1,7 @@
 # Teeny docker container to download emojis from Slack
 
 From https://gist.github.com/lmarkus/8722f56baf8c47045621
+
 Modified @griffero's ruby script from https://gist.github.com/lmarkus/8722f56baf8c47045621?permalink_comment_id=4020434#gistcomment-4020434
 
 ⚠️ Use only in moderation on Slack workspaces that you have permission to access! ⚠️
