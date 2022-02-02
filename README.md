@@ -2,6 +2,8 @@
 
 Modified from https://gist.github.com/lmarkus/8722f56baf8c47045621
 
+⚠️ Use only in moderation on Slack workspaces that you have permission to access! ⚠️
+
 ## How to Run
 
 1. Make sure `docker` and `docker-compose` are installed
@@ -18,7 +20,7 @@ Extract the JSON list of emojis as directed in the gist linked at the top of thi
 
 However, if you have issues with the methods described there, try the following (directions for Firefox):
 
-1. Navigate to `https://<workspace>.slack.com/customize/emoji`
+1. Navigate to `https://<workspace>.slack.com/customize/emoji` (you must have permission to access this page)
 2. Open the Network pane in the browser's developer tools and refresh
 3. Click on filename that starts with `emoji.adminList` or `emoji.list`
 4. In the side panel, click on the "Response" tab
