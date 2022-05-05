@@ -35,3 +35,13 @@ However, if you have issues with the methods described there, try the following 
     5. Click on the new network request that was just sent
     6. Click on the "Response" tab and toggle "Raw" to true
     7. Copy the JSON and save to a file
+8. If the resulting JSON is too large:
+    1. Right click on the filename that starts with `emoji.adminList` and click "Edit and resend"
+    2. Edit the "Request Body" so that `Content-Disposition: form-data; name="count"` is set to 1000
+    3. Click "Resend"
+    4. Click on the new network request that was just sent
+    5. Click on the "Response" tab and toggle "Raw" to true
+    6. Copy the JSON and save to a file
+    7. Right click on newest `emoji.adminList` filename and click "Edit and resend"
+    8. Edit the "Request Body" so that `Content-Disposition: form-data; name="page"` is incremented by 1
+    9. Repeat above steps 3-8 until all pages are downloaded
